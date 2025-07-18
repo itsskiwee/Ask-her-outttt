@@ -1,0 +1,68 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+  overflow: hidden;
+}
+
+body {
+  background: url('https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExaW1lem85eDRoejAwd3pvYmh2djgxZnlwdTk3cmE1ZXp4ZnZnYzY3ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ttknk7M3d3UBEeZsii/giphy.gif') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  jusify-content: center;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(2px);
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+  position: relative;
+}
+
+h1 {
+  color: #ffffff;
+  text-shadow: 1px 1px 4px #000;
+  margin-bottom: 30px;
+  font-size: 32px;
+}
+
+.btn {
+  padding: 12px 24px;
+  margin: 15px;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 12px;
+  transition: all 0.2s ease;
+}
+
+#yesBtn {
+  background-color: #4caf50;
+  color: white;
+}
+
+#yesBtn:hover {
+  background-color: #45a049;
+}
+
+#noBtn {
+  background-color: #f44336;
+  color: white;
+  position: absolute;
+}
+
+#noBtn:hover {
+  background-color: #e53935;
+}
+
+#response {
+  font-size: 24px;
+  color: #fff;
+  margin-top: 20px;
+  text-shadow: 1px 1px 3px #000;
+}
