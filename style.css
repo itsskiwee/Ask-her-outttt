@@ -11,7 +11,7 @@ body {
   background-size: cover;
   display: flex;
   align-items: center;
-  jusify-content: center;
+  justify-content: center;
 }
 
 .container {
